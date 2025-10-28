@@ -1,0 +1,6 @@
+<groups>
+ <group level="1" cache-level="3">
+  <cpu count="4" mask="f,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">0, 1, 2, 3</cpu>
+ </group>
+</groups>
+
