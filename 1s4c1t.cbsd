@@ -1,0 +1,6 @@
+sockets_num="1"
+cores_num="4"
+threads_num="0"
+cores_max="4"
+
+cores_by_socket0="0 1 2 3"
