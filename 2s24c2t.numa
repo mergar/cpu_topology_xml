@@ -1,0 +1,81 @@
+root@bhyve:~/cpu # sysctl vm.ndomains
+vm.ndomains: 2
+
+root@bhyve:~/cpu # sysctl vm.phys_locality
+vm.phys_locality:
+0: 10 21 
+1: 21 10 
+
+root@bhyve:~/cpu # sysctl vm.phys_segs
+vm.phys_segs:
+SEGMENT 0:
+
+start:     0x10000
+end:       0xa0000
+domain:    0
+free list: 0xffffffff81c1cc50
+
+SEGMENT 1:
+
+start:     0x100000
+end:       0x1000000
+domain:    0
+free list: 0xffffffff81c1cc50
+
+SEGMENT 2:
+
+start:     0x1000000
+end:       0x57026000
+domain:    0
+free list: 0xffffffff81c1c8a8
+
+SEGMENT 3:
+
+start:     0x5702f000
+end:       0x5706a000
+domain:    0
+free list: 0xffffffff81c1c8a8
+
+SEGMENT 4:
+
+start:     0x57201000
+end:       0x69aa1000
+domain:    0
+free list: 0xffffffff81c1c8a8
+
+SEGMENT 5:
+
+start:     0x6bba1000
+end:       0x6c52d000
+domain:    0
+free list: 0xffffffff81c1c8a8
+
+SEGMENT 6:
+
+start:     0x6faf0000
+end:       0x70000000
+domain:    0
+free list: 0xffffffff81c1c8a8
+
+SEGMENT 7:
+
+start:     0x10000c000
+end:       0x7d81600000
+domain:    0
+free list: 0xffffffff81c1c500
+
+SEGMENT 8:
+
+start:     0x804000b000
+end:       0xfd761ec000
+domain:    1
+free list: 0xffffffff81c1cff8
+
+SEGMENT 9:
+
+start:     0x1003de00000
+end:       0x1003dff0000
+domain:    1
+free list: 0xffffffff81c1cff8
+
+

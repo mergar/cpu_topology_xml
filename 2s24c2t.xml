@@ -1,0 +1,212 @@
+<groups>
+ <group level="1" cache-level="0">
+  <cpu count="96" mask="ffffffffffffffff,ffffffff,0,0,0,0,0,0,0,0,0,0,0,0,0,0">0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95</cpu>
+  <children>
+   <group level="2" cache-level="3">
+    <cpu count="48" mask="ffffffffffff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47</cpu>
+    <flags><flag name="NODE">NUMA node</flag></flags>
+    <children>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">0, 1</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">2, 3</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">4, 5</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="c0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">6, 7</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="300,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">8, 9</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="c00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">10, 11</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="3000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">12, 13</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="c000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">14, 15</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="30000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">16, 17</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="c0000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">18, 19</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="300000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">20, 21</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="c00000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">22, 23</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="3000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">24, 25</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="c000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">26, 27</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="30000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">28, 29</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="c0000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">30, 31</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="300000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">32, 33</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="c00000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">34, 35</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="3000000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">36, 37</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="c000000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">38, 39</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="30000000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">40, 41</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="c0000000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">42, 43</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="300000000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">44, 45</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="c00000000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">46, 47</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+    </children>
+   </group>
+   <group level="2" cache-level="3">
+    <cpu count="48" mask="ffff000000000000,ffffffff,0,0,0,0,0,0,0,0,0,0,0,0,0,0">48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95</cpu>
+    <flags><flag name="NODE">NUMA node</flag></flags>
+    <children>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="3000000000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">48, 49</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="c000000000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">50, 51</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="30000000000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">52, 53</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="c0000000000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">54, 55</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="300000000000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">56, 57</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="c00000000000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">58, 59</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="3000000000000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">60, 61</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="c000000000000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">62, 63</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0">64, 65</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="0,c,0,0,0,0,0,0,0,0,0,0,0,0,0,0">66, 67</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0">68, 69</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="0,c0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">70, 71</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="0,300,0,0,0,0,0,0,0,0,0,0,0,0,0,0">72, 73</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="0,c00,0,0,0,0,0,0,0,0,0,0,0,0,0,0">74, 75</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="0,3000,0,0,0,0,0,0,0,0,0,0,0,0,0,0">76, 77</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="0,c000,0,0,0,0,0,0,0,0,0,0,0,0,0,0">78, 79</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="0,30000,0,0,0,0,0,0,0,0,0,0,0,0,0,0">80, 81</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="0,c0000,0,0,0,0,0,0,0,0,0,0,0,0,0,0">82, 83</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="0,300000,0,0,0,0,0,0,0,0,0,0,0,0,0,0">84, 85</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="0,c00000,0,0,0,0,0,0,0,0,0,0,0,0,0,0">86, 87</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="0,3000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0">88, 89</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="0,c000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0">90, 91</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="0,30000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0">92, 93</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+     <group level="3" cache-level="2">
+      <cpu count="2" mask="0,c0000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0">94, 95</cpu>
+      <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+     </group>
+    </children>
+   </group>
+  </children>
+ </group>
+</groups>
+
