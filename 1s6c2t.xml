@@ -1,0 +1,32 @@
+<groups>
+ <group level="1" cache-level="3">
+  <cpu count="12" mask="fff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11</cpu>
+  <children>
+   <group level="2" cache-level="2">
+    <cpu count="2" mask="3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">0, 1</cpu>
+    <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+   </group>
+   <group level="2" cache-level="2">
+    <cpu count="2" mask="c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">2, 3</cpu>
+    <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+   </group>
+   <group level="2" cache-level="2">
+    <cpu count="2" mask="30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">4, 5</cpu>
+    <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+   </group>
+   <group level="2" cache-level="2">
+    <cpu count="2" mask="c0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">6, 7</cpu>
+    <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+   </group>
+   <group level="2" cache-level="2">
+    <cpu count="2" mask="300,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">8, 9</cpu>
+    <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+   </group>
+   <group level="2" cache-level="2">
+    <cpu count="2" mask="c00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">10, 11</cpu>
+    <flags><flag name="THREAD">THREAD group</flag><flag name="SMT">SMT group</flag></flags>
+   </group>
+  </children>
+ </group>
+</groups>
+
